@@ -53,7 +53,8 @@
 
 #### 검색 결과 페이지
  - Google Map Api를 활용한 숙소 리스트
-
+ - Gppgle Mpa infoWindow에 Card(react Component)삽입
+ - 
 #### 상세 페이지
  - 숙소 평점별 표시
  - 예약하기
