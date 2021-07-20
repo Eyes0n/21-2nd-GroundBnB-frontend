@@ -2,9 +2,14 @@
 
 > ## 😎 Our Reference : https://www.airbnb.co.kr/
 
+## 📎Project Video Link
+
+> ## https://www.youtube.com/watch?v=nb_UiJRXuQc
+
 ## 💬 프로젝트 개요
 숙박 예약 사이트 AirBnb클론
 - 세계 최대 숙소 예약 포털 사이트 [에어비앤비](https://www.airbnb.co.kr/) 클론 프로젝트
+
 
 
 ### 프로젝트 선정이유
@@ -43,7 +48,21 @@
 
 - Terello, Slack, Git
 
-### 구현 기능
+### 내가() 구현한 것들
+- 메인 페이지:  
+  - Header 컴포넌트
+  - 검색바 in Nav 컴포넌트
+  - 입력 시 마다 검색 api 호출 기능 구현
+  - 검색 버튼 클릭 시 리스트 페이지로 라우팅 구현
+  -  Kakao social login 구현
+
+- 검색 결과 리스트 페이지 : 
+  - useEffect를 사용한 google map api 호출 기능 구현
+  - marker 클릭 시 infoWindow 출력 기능 구현
+  - infoWindow 클릭 시 출력될 단일 카드 컴포넌트(해당 숙소) 구현
+  - 카드 컴포넌트 클릭 시 숙소 상세 페이지로 라우팅 기능
+
+### 전체 구현 기능
 
 #### 메인페이지
  - 검색(연관 검색어), Calendar
@@ -53,13 +72,12 @@
 
 #### 검색 결과 페이지
  - Google Map Api를 활용한 숙소 리스트
- - Gppgle Mpa infoWindow에 Card(react Component)삽입
- - 
+
 #### 상세 페이지
  - 숙소 평점별 표시
  - 예약하기
  - 댓글
- 
+
 ## Reference
 
 - 이 프로젝트는 [에어비앤비](https://www.airbnb.co.kr/) 사이트를 참조하여 학습목적으로 만들었습니다.
